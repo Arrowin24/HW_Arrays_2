@@ -30,7 +30,7 @@ public class Main {
 
         //Task3
         System.out.println("Задание 3: ");
-        int averageCost = costsPerMonth / costs.length;
+        double averageCost = (double) costsPerMonth / costs.length;
         System.out.println("Средняя сумма трат за месяц составила " + averageCost + " рублей");
 
         //Task4
